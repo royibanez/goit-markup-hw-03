@@ -31,6 +31,11 @@ body{
 }
 
 
+.nav-header,
+.header-contactinfo{
+    display
+}
+
 #logo-header{
   height: 24px;
   font-family: "Raleway", sans-serif;
@@ -99,33 +104,76 @@ body{
     text-shadow: 0px 4px 4px var(--shadow-text);
 }
 
+
+.order-button:hover,
+.order-button:focus{
+    background: var(--color-ocean);
+}
+
 .order-button{
     cursor: pointer;
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--color-iris);
+    box-shadow: 0px 4px 4px 0px var(--shadow-box);
+    border: none;
+    text-align: center;
+    color: var(--color-white);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    letter-spacing: .64px;
 
 }
 
-/* .what-are-we-doing-section */
+.team-vision-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-.what-are-we-doing-section{
-    font-size: 36px;
-    font-weight:700;
-    line-height: 1.111111;
-    letter-spacing: .72px;
+.list-of-services{
+    list-style: none;
+    display: inline-flex;
+    padding-bottom: 0px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;  
+       
+}
+
+/* what-are-we-doing-section */
+.product-section{
     text-align: center;
+    list-style: none;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.111111;
+    letter-spacing: 0.72px;
     text-transform: capitalize;
 }
 
-/* team section */
-
-
-#team-section{
-    background-color: var(--color-cloud)
-
-}
-
-.team-list{
+.product-list{
+    display: inline-flex;
     list-style: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    
+}
+   
 
+/* team section */
+.team-section{
+    background-color: var(--color-cloud)
+    box-shadow: var(--shadow-box);
+    
 }
 
 .team-title,
@@ -133,6 +181,35 @@ body{
 .team-job-description{
     text-align: center;
 }
+
+.team-title{
+    text-align: center;
+    list-style: none;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.111111;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.team-list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.team-members{
+ border-radius: 0px 0px 4px 4px;
+ background: var(--white, #FFF);
+ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+ 
+}
+
+
 
 /* footer-section */
 
