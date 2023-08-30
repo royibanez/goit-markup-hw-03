@@ -36,7 +36,7 @@ body{
     display
 } */
 
-#logo-header{
+.logo-header{
   height: 24px;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -48,7 +48,7 @@ body{
   color: var(--color-navyblue);
 }
 
-#span-logo{
+.span-logo{
     color: var(--color-iris);
 }
 
@@ -214,11 +214,11 @@ body{
 /* footer-section */
 
 
-#footer-section{
+.footer-section{
     background-color: var(--color-navyblue);
 }
 
-#footer-logo{
+.footer-logo{
   height: 24px;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -230,11 +230,11 @@ body{
   color: var(--color-cloud)
 }
 
-#footer-logo-span{
+.footer-logo-span{
     color: var(--color-iris)
 }
 
-#footer-note{
+.footer-note{
     color: var(--color-cloud);
     width: 264;
     letter-spacing: .32px;
