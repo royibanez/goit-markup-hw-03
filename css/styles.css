@@ -31,10 +31,10 @@ body{
 }
 
 
-.nav-header,
+/* .nav-header,
 .header-contactinfo{
     display
-}
+} */
 
 #logo-header{
   height: 24px;
@@ -239,3 +239,103 @@ body{
     width: 264;
     letter-spacing: .32px;
 }
+
+
+/* portfolio CSS section */
+
+.portfolio-logo{
+    height: 24px;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.166667;
+    letter-spacing: .54px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--color-navyblue);
+  }
+  
+  .portfolio-span{
+      color: var(--color-iris);
+  }
+  
+  
+    .portfolio-nav-list,
+    .portfolio-contact-list{
+      list-style: none ;
+      text-decoration: none;
+  
+    }
+  
+    .portfolio-nav-list a,
+    .portfolio-contact-list a{
+      text-decoration: none;
+      font-style: normal;
+      color: var(--color-slate);
+    }
+  
+    .nav-portfolio-list-item a,
+    .portfolio-contact-list a{
+      text-decoration: none;
+      font-weight: 500;
+    }
+  
+    /* navigation and contact hover effect */
+  
+    .portfolio-nav-list a:hover,
+    .portfolio-nav-list a:focus,
+    .portfolio-contact-list a:hover,
+    .portfolio-contact-list a:focus{
+      color: var(--color-ocean);
+  
+    }
+   
+   /* buttons effect */
+  
+    .buttons{
+      list-style: none;
+   } 
+  
+    .buttons a:hover,
+    .buttons a:focus{
+      color: var(--color-ocean);
+  
+    }
+   
+     .button-menu .link:visited{
+      background: var(--color-navyblue);
+    } 
+  
+  
+   /* Apps feature effects */
+    .apps-features{
+      list-style: none;
+   }
+  
+   /* footer section */
+  
+   .portfolio-footer-section{
+      background-color: var(--color-navyblue);
+   }
+  
+   .portfolio-footer-logo{
+    height: 24px;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.166667;
+    letter-spacing: .54px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--color-cloud)
+   }
+  
+   .portfolio-footer-logo-span{
+      color: var(--color-iris);
+   }
+   
+    .portfolio-footer-note{
+      color: var(--color-cloud);
+      width: 264;
+      letter-spacing: .32px;
+   }
